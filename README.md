@@ -1,5 +1,6 @@
-### Dashboard project
+### Dashboard skeleton project 
 #### version beta
-* Spatie/Backup
-* Spatie/laravel-permission
+* Laravel 12
+* Spatie/laravel-backup (installed)
+* Spatie/laravel-permission (installed)
 * Filament 4
