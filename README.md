@@ -12,8 +12,8 @@
  * run_at, transfered_at, file size (Meg)
 
 * [ ] Basic UI Create scheduled backup
-        * [ ] Create schedule action
-        * [ ] Basic view to see scheduled actions
+* [ ] Create schedule action
+* [ ] Basic view to see scheduled actions
 
 * Spatie/laravel-permission (installed)
 * Filament 4
