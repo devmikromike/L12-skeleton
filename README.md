@@ -1,8 +1,8 @@
 ### Dashboard skeleton project
 #### version beta
 
- * Laravel 12 (installed)
- * Spatie/laravel-backup (installed)
+ * [X] Laravel 12 (installed)
+ * [X] Spatie/laravel-backup (installed)
  
  * [ ] Basic UI view backups from storage folder
  * backup name, file name, status, created_at, run_at, transfered_at, file size (Meg)
@@ -15,5 +15,5 @@
 * [ ] Create schedule action
 * [ ] Basic view to see scheduled actions
 
-* Spatie/laravel-permission (installed)
+* [X] Spatie/laravel-permission (installed)
 * Filament 4
