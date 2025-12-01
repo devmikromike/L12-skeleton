@@ -2,7 +2,7 @@
 #### version beta
 
 * [X] Laravel 12 (installed)
-* [X] Spatie/laravel-backup (installed)
+* [X] Spatie/laravel-backup ^9.3 (installed)
  
 * [ ] Basic UI view backups from local storage folder
 * backup name, file name, status, created_at, run_at, file size (Meg)
@@ -11,7 +11,7 @@
 * [ ] Create schedule action
 * [ ] Basic view to see scheduled actions
 
-* [X] Spatie/laravel-permission (installed)
+* [X] Spatie/laravel-permission ^6.23 (installed)
 * [ ] Filament 4
 * [ ] Basic UI view backups remote locations
 * backup name, file name, remote name, status, transfered_at, created_at
