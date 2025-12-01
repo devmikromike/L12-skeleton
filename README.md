@@ -16,4 +16,4 @@
 * [ ] Basic view to see scheduled actions
 
 * [X] Spatie/laravel-permission (installed)
-* Filament 4
+* [ ] Filament 4
