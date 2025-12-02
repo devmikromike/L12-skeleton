@@ -29,6 +29,7 @@ return [
                     base_path('node_modules'),
                     base_path('tests'),
                     base_path('.git'),
+                    base_path('.temp'),
                     base_path('.info'),
                     base_path( 'storage\framework'),                   
                     base_path( 'storage\logs'),     
@@ -266,7 +267,7 @@ return [
             'disks' => ['local'],
             'health_checks' => [
                 \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumAgeInDays::class => 1,
-                \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumStorageInMegabytes::class => 5000,
+                \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumStorageInMegabytes::class => 50000,
             ],
         ],
 
