@@ -5,7 +5,7 @@
 * [X] Spatie/laravel-backup ^9.3 (installed)
  
 * [ ] Basic UI view backups from local storage folder
-* backup name, file name, status, created_at, run_at, file size (Meg)
+* backup name, file name, folder name, status, created_at, run_at, file size (Meg)
 
 * [ ] Basic UI Create scheduled backup
 * [ ] Create schedule action
