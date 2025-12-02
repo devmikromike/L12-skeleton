@@ -24,11 +24,16 @@ return [
                  * Directories used by the backup process will automatically be excluded.
                  */
                 'exclude' => [
+                    base_path('.env'),
                     base_path('vendor'),
                     base_path('node_modules'),
+                    base_path('tests'),
                     base_path('.git'),
                     base_path('.info'),
-                     
+                    base_path( 'storage\framework'),                   
+                    base_path( 'storage\logs'),     
+                    base_path( 'storage\app\private'), 
+                                    
                 ],
 
                 /*
@@ -39,7 +44,7 @@ return [
                 /*
                  * Determines if it should avoid unreadable folders.
                  */
-                'ignore_unreadable_directories' => false,
+                'ignore_unreadable_directories' => true,
 
                 /*
                  * This path is used to make directories in resulting zip-file relative

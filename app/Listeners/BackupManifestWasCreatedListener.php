@@ -11,16 +11,18 @@ class BackupManifestWasCreatedListener
 {   
     public function handle(BackupManifestWasCreated $event): void
     {
-        $manifest = $event->manifest;
+        $manifest = $event->manifest;  
+        
+        // dd($manifest);
 
-        // foreach ($manifest->files() as $filePath) {
-        //     // Laske SHA256 checksum
-        //     if (file_exists($filePath)) {
-        //         $hash = hash_file('sha256', $filePath);
+        //  foreach ($manifest->files() as $filePath) {
+        //      // Laske SHA256 checksum
+        //      if (file_exists($filePath)) {
+        //          $hash = hash_file('sha256', $filePath);
 
-        //         // Tee mitä haluat: loggaa, tallenna DB:hen, vertaa aiempiin
-        //         Log::info("Backup file: {$filePath}, SHA256: {$hash}");
-        //     }
-        // }
+        // //         // Tee mitä haluat: loggaa, tallenna DB:hen, vertaa aiempiin
+        //          Log::info("Backup file: {$filePath}, SHA256: {$hash}");
+        //      }
+        //  }
     }
 }
